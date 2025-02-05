@@ -2,6 +2,7 @@ export const servicesCardData = [
   {
     name: "Your Dedicated Team",
     desc: "Your dedicated team will be with you every step of the way. We will work with you to create a plan that fits your needs. We will be there to help you with any questions or concerns you may have.",
+    img: "https://www.bain.com/contentassets/d13a20dfb0774479a2b7ffbd90942685/choreograph-magnified_16-9_option-2.png?width=1440&height=810&mode=crop",
   },
   {
     name: "Clear, Data-Driven Reports",

@@ -6,4 +6,6 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   plugins: [],
+
+ 
 };
