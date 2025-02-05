@@ -100,16 +100,19 @@ const Nav = () => {
     };
   }, []);
   return (
+
+   
     <nav
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className={`w-full z-50 h-auto fixed top-0 left-0  flex flex-col justify-between items-center  py-4 transition-all border-b border-gray-500 hover:bg-white hover:text-black
- ${isSticky ? "bg-white text-black" : "text-white"}`}
+      className={`w-full z-50 h-auto fixed top-0 left-0 bg-white flex flex-col justify-between items-center  py-4 transition-all border-b border-gray-500  
+ `
+}
     >
       {/* top */}
 
       <div
-        className={`hidden justify-between pb-4 items-center w-full px-10  
+        className={`hidden justify-between pb-4 items-center w-full px-10 
           
         `}
       >
@@ -227,9 +230,8 @@ const Nav = () => {
             <li>
               <Image
                 src={
-                  isHovered || isSticky
-                    ? "/logo_red_bain.svg"
-                    : "/logo_white-bain.svg"
+                  "/logo_red_bain.svg"
+                  
                 }
                 alt="logo"
                 width={150}
@@ -464,6 +466,7 @@ const Nav = () => {
         </div>
       </div>
     </nav>
+  
   );
 };
 

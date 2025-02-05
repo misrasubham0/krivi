@@ -8,8 +8,12 @@ import React from "react";
 const services = () => {
   return (
     <>
+       <div class="md:container md:mx-auto">
       <Nav />
-      <header className="w-full h-screen relative flex items-center px-4 md:px-10">
+   
+      
+      <header className="h-auto w-full px-4 md:px-10 py-10 ">
+        <div className="w-full h-screen mt-8 relative flex items-center px-4 md:px-10">
         <img
           src="/services_img.webp"
           alt="service"
@@ -34,6 +38,8 @@ const services = () => {
             journey.
           </p>
         </div>
+        </div>
+        
       </header>
 
       <section className="h-auto w-full px-4 md:px-10 py-10">
@@ -91,6 +97,7 @@ const services = () => {
       <Slider />
       <Faq />
       <Footer />
+      </div>
     </>
   );
 };
