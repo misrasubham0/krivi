@@ -12,6 +12,7 @@ const index = () => {
   return (
     <>
       <Nav />
+      <div class="md:container md:mx-auto">
       <Slider />
       <HowWeCanHelp/>
       <ClientWeServe />
@@ -19,6 +20,7 @@ const index = () => {
       <Marketing />
       <CoreCapablities />
       <Footer />
+      </div>
     </>
   );
 };

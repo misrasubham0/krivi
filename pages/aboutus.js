@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import Footer from "@/components/Footer";
 const aboutus = () => {
     const [openFaq, setOpenFaq] = useState(1);
 
@@ -347,7 +348,9 @@ const aboutus = () => {
                 </div>
             </section> */}
 
+                <Footer/>
             </div>
+
         </>
     );
 
