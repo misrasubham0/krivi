@@ -8,13 +8,10 @@ import React from "react";
 const services = () => {
   return (
     <>
-       <div class="md:container md:mx-auto">
+       
       <Nav />
    
-      
-      <header className="h-auto w-full px-4 md:px-10 py-10 ">
-        <div className="w-full h-screen mt-8 relative flex items-center px-4 md:px-10">
-        <img
+   <img
           src="/services_img.webp"
           alt="service"
           className="object-cover w-full h-full absolute top-0 left-0"
@@ -23,6 +20,19 @@ const services = () => {
             verticalAlign: "middle",
           }}
         />
+
+      <div class="md:container md:mx-auto">
+      <header className="h-auto w-full px-4 md:px-10 py-10 ">
+        <div className="w-full h-screen mt-8 relative flex items-center px-4 md:px-10">
+        {/* <img
+          src="/services_img.webp"
+          alt="service"
+          className="object-cover w-full h-full absolute top-0 left-0"
+          style={{
+            display: "inline-block",
+            verticalAlign: "middle",
+          }}
+        /> */}
         <div className="text-white relative p-4 md:p-0">
           <h1 className="text-2xl md:text-4xl font-semibold">
             Engaging and Attracting Customers with Ease
@@ -41,6 +51,7 @@ const services = () => {
         </div>
         
       </header>
+      </div>
 
       <section className="h-auto w-full px-4 md:px-10 py-10">
         <div className="grid mt-10 grid-cols-1 md:grid-cols-1 gap-4" style={{display: "flex"}}>
@@ -97,7 +108,7 @@ const services = () => {
       <Slider />
       <Faq />
       <Footer />
-      </div>
+      
     </>
   );
 };

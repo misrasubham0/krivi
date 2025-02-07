@@ -18,10 +18,10 @@ const Footer = () => {
           </p>
 
           <Image
-            src={"/logo_white-bain.svg"}
+            src={"/logo_red_bain1.png"}
             alt="logo"
             width={200}
-            className="cursor-pointer mt-8 md:mt-14"
+            className="cursor-pointer mt-8 md:mt-14 h-8 w-32"
             height={100}
           />
         </div>
@@ -54,7 +54,14 @@ const Footer = () => {
       </div>
 
       <p className="mt-8 md:mt-14 text-lg text-[#424242] font-semibold text-center md:text-left">
-        © 1996-2025 Bain & Company, Inc.
+        {/* © 1996-2025 Bain & Company, Inc. */}
+        Address: Lodha Supremus,
+
+        New Cuffe Parade,
+
+        Bandra Kurla Complex Ex,
+
+        Mumbai, Maharashtra 400037
       </p>
     </footer>
   );

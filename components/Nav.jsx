@@ -230,13 +230,13 @@ const Nav = () => {
             <li>
               <Image
                 src={
-                  "/logo_red_bain.svg"
+                  "/logo_red_bain.png"
                   
                 }
                 alt="logo"
                 width={150}
-                className="cursor-pointer"
-                height={10}
+                className="cursor-pointer h-8 w-32"
+                height={20}
               />
             </li>
           </Link>

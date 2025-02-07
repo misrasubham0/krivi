@@ -12,8 +12,9 @@ const index = () => {
   return (
     <>
       <Nav />
-      <div class="md:container md:mx-auto">
+      
       <Slider />
+      <div class="md:container md:mx-auto">
       <HowWeCanHelp/>
       <ClientWeServe />
       <WhyChooseUs />

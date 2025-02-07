@@ -67,6 +67,7 @@ const Slider = () => {
                 </div>
               </div>
 
+                
               <div className="h-full md:px-10 px-4 flex justify-center items-start flex-col w-full">
                 <div className={`${activeSlide === idx ? "animate-text-slide" : ""}`}>
                   <h1 className="text-4xl font-semibold">{slide.heading}</h1>

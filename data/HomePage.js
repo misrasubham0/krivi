@@ -18,14 +18,14 @@ export const slideData = [
     heading: "Sales Enablement",
     subHeading: "Where Marketing Meets Intelligence, Sales Meet Precision",
     para: "Build future ready marketing and sales operations powered by artificial intelligence and data-driven insights. Turn strategy into measurable success with our comprehensive suite of AI solutions.",
-    image: "/slide3.jpg",
+    image: "/slide3.jpeg",
   },
   {
     name: "Omnichannel Marketing",
     heading: "Omnichannel Marketing",
     subHeading: "Where Marketing Meets Intelligence, Sales Meet Precision",
     para: "Build future ready marketing and sales operations powered by artificial intelligence and data-driven insights. Turn strategy into measurable success with our comprehensive suite of AI solutions.",
-    image: "/slide4.jpg",
+    image: "/slide4.jpeg",
   },
 ];
 
